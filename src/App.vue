@@ -8,6 +8,7 @@
 export default {
   name: 'App'
 }
+
 </script>
 
 
@@ -24,7 +25,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+}
+.primary-section {
+  color:$white;
   background-color: $purple;
 }
+
+.secondary-section {
+  color: $purple;
+  background-color: $white;
+}
+
+
 </style>
