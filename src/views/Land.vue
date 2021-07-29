@@ -1,6 +1,5 @@
 <template>
     <div id="land">
-
         <div id="load" v-bind:style="{ minWidth : count + '%' }">
         </div>
 

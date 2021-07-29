@@ -1,5 +1,4 @@
 <template>
-  <section>
     <div class="project">
         <a href="">
             <img
@@ -9,5 +8,4 @@
             />
         </a>
     </div>
-  </section>
 </template>

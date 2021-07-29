@@ -26,15 +26,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-.primary-section {
-  color:$white;
-  background-color: $purple;
+
+.fullsection{
+
+  height: 100vh;
 }
 
-.secondary-section {
-  color: $purple;
-  background-color: $white;
-}
+.fullsection.primary {
+    color: $white;
+    background-color: $purple;
+  }
+
+.fullsection.secondary {
+    color: $purple;
+    background-color: $white;
+  }
 
 
 </style>

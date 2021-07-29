@@ -1,5 +1,5 @@
 <template>
-  <div class="home primary-section">
+  <div class="home primary fullsection">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
