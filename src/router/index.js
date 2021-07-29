@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Land from "../views/Land.vue";
 
 Vue.use(VueRouter);
 
@@ -9,13 +8,13 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Land",
-    component: Land,
+    name: "Loader",
+    component: () => import(/* webpackChunkName: "loader" */ "../views/Loader.vue"),
   },
   {
     path: "",
     name: "Main",
-    component: () => import(/* webpackChunkName: "main" */ "../layout/MainMenu.vue"),
+    component: () => import(/* webpackChunkName: "main" */ "../layout/MainLayout.vue"),
     children:[
       {
         path: "/home",

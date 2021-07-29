@@ -1,5 +1,5 @@
 <template>
-    <div id="land">
+    <div id="loader">
 
         <div id="load" v-bind:style="{ minWidth : count + '%' }">
         </div>
@@ -49,7 +49,7 @@ export default {
 
 <style scoped lang="scss">
 
-#land{
+#loader{
     height: 100vh;
     background-color: #0571FF;
     color: #FFAB0F;

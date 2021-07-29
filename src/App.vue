@@ -24,7 +24,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
-  background-color: $purple;
+
+}
+
+.full-section{
+  min-height: 100vh;
+}
+
+  .full-section.primary{
+    color: $white;
+    background-color: $purple;
+  }
+
+.full-section.secondary{
+  color: $purple;
+  background-color: $white;
 }
 </style>

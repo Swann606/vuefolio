@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home full-section primary">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
@@ -7,12 +7,14 @@
 
 <script>
 
-import HelloWorld from "@/components/HelloWorld.vue";
+
+
+//import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+   HelloWorld:() => import(/* webpackChunkName: "hello-world" */ '@/components/HelloWorld.vue'  )
   },
 };
 </script>
