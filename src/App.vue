@@ -15,6 +15,7 @@ export default {
 <style lang="scss">
 
 @import "./assets/css/color.scss";
+@import "./assets/css/styles.css";
 
 body {
   margin:0;
@@ -42,5 +43,8 @@ body {
     background-color: $white;
   }
 
+a {
+  text-decoration: none;
+}
 
 </style>

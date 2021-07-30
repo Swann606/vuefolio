@@ -1,11 +1,7 @@
 <template>
 
     <div id="MainLayout">
-        <div id="nav">
-            <router-link to="/home">Home</router-link> |
-            <router-link to="/about">About</router-link> |
-            <router-link to="/contact">Contact</router-link>
-        </div>
+        <Menu/>
 
         <div class="page-container">
             <router-view></router-view>
@@ -19,7 +15,10 @@
 <script>
 
 export default {
-  name: 'MainLayout'
+  name: 'MainLayout',
+    components: {
+   Menu:() => import(/* webpackChunkName: "menu" */ '@/components/Menu.vue'  )
+  },
 }
 
 </script>
