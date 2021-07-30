@@ -1,7 +1,8 @@
 <template>
     <Slide>
-            <router-link to="/home">Home</router-link> 
-            <router-link to="/about">About</router-link> 
+            <router-link to="/home">Home</router-link>
+            <router-link to="/porfolio">Porfolio</router-link>
+            <router-link to="/about">About</router-link>
             <router-link to="/contact">Contact</router-link>
     </Slide>
 </template>
