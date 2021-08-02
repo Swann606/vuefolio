@@ -6,7 +6,11 @@
             <p class="test text-red-500">Lorem</p>
         </div>
 
-        <Project/>
+        <div class="project-container">
+            <Project/>
+        </div>
+
+
 
     </div>
 </template>

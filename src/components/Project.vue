@@ -3,12 +3,12 @@
         <a href="">
             <img
                 class="project-picture rounded-md"
-                src="https://via.placeholder.com/300"
+                v-bind:src="img_url"
                 alt=""
             />
         </a>
         <div class="title absolute bottom-2 left-2">
-            <h3 class="text-xl" >Projet n°1</h3>
+            <h3 class="text-xl" >{{title}}</h3>
         </div>
     </div>
 </template>
@@ -16,9 +16,22 @@
 
 <script>
 
-    export default {
-        name: "Project",
-    };
+    import json from '@/data/project_1.json'
+    export default{
+        name:'Project',
+        data(){
+            return{
+                title: json.title,
+                img_url: json.img_url
+            }
+        },
+        mounted (){
+
+        },
+
+    }
+
+
 
 </script>
 
