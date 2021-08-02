@@ -1,5 +1,5 @@
 <template>
-    <div class="project">
+    <div class="project relative m-4">
         <a href="">
             <img
                 class="project-picture rounded-md"
@@ -22,12 +22,9 @@
 
 </script>
 
-<style>
+<style scoped lang="scss">
     .project {
         max-height: 300px;
+        max-width:300px;
     }
-
-
-
-
 </style>
